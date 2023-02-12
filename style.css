@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    
+}
+
+.box{
+    margin: 10px;
+    background-color: blueviolet;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.value{
+    margin: 5px;
+    color: white;
+    font-size: xx-large;
+}
+
+.text{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 100px;
+    height: 20px;
+    font-weight: 100;
+    border:2px solid #222;
+}
+
+.buttons{
+    margin: 8px;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    background-color: aquamarine;
+    border-radius: 3px;
+}
+.buttons:active{
+    transform: scale(1.1);
+}
+
